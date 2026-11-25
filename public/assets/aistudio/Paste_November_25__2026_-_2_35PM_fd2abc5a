@@ -1,0 +1,817 @@
+PROMPT PEMBUATAN WEBSITE CRISISWATCH
+
+Sistem Monitoring, Deteksi, dan Pengelolaan Krisis Media Sosial Universitas Negeri Jakarta
+
+Buat sebuah website berbasis web yang modern, profesional, interaktif, responsif, dan memiliki fungsi yang benar-benar berjalan. Website ini bernama CrisisWatch, yaitu sebuah platform untuk membantu melakukan monitoring isu, mendeteksi potensi krisis komunikasi, memvalidasi informasi, menentukan tingkat krisis, menyusun pernyataan resmi, mendistribusikan respons, serta mengevaluasi perkembangan sentimen dan pemulihan reputasi.
+
+Website ini dirancang sebagai sistem pendukung pengelolaan krisis komunikasi dan kehumasan, dengan studi penerapan pada Universitas Negeri Jakarta (UNJ).
+
+PENTING: Jangan hanya membuat desain visual atau landing page yang terlihat menarik. Buat website yang memiliki halaman, navigasi, tombol, formulir, fitur analisis, interaksi, dan alur kerja yang saling terhubung. Setiap tombol harus mempunyai fungsi yang jelas. Seluruh fitur utama harus dapat dicoba dan digunakan, bukan hanya menjadi elemen dekoratif.
+
+1. TUJUAN DAN KONSEP WEBSITE
+
+CrisisWatch dibuat untuk membantu tim humas atau pengelola komunikasi organisasi dalam mengidentifikasi dan menangani isu yang berkembang di media sosial sebelum isu tersebut berubah menjadi krisis yang lebih besar.
+
+Website harus mampu:
+
+1. Memantau isu dan percakapan yang berkaitan dengan organisasi.
+2. Menampilkan jumlah mention, sentimen publik, dan isu yang sedang berkembang.
+3. Mengidentifikasi isu yang memiliki potensi menjadi krisis.
+4. Melakukan validasi informasi berdasarkan sumber dan bukti yang tersedia.
+5. Mengklasifikasikan tingkat krisis berdasarkan indikator yang ditentukan.
+6. Memberikan rekomendasi tindakan berdasarkan hasil klasifikasi.
+7. Membantu menyusun pesan resmi berupa Hold Statement atau klarifikasi.
+8. Menyediakan fitur distribusi respons melalui berbagai platform komunikasi.
+9. Memantau perubahan sentimen setelah respons dipublikasikan.
+10. Menyediakan laporan evaluasi dan perkembangan pemulihan reputasi.
+
+Website harus menggambarkan proses kerja sistem manajemen krisis yang sistematis, mulai dari deteksi dini sampai krisis dinyatakan teratasi.
+
+2. DESAIN VISUAL DAN IDENTITAS WEBSITE
+
+Gunakan desain dashboard profesional dengan konsep teknologi, monitoring, dan crisis management.
+
+Referensi tampilan:
+
+* Modern dashboard seperti sistem monitoring profesional.
+* Desain bersih, minimalis, dan mudah dipahami.
+* Tampilan tidak terlalu ramai.
+* Mengutamakan keterbacaan data dan kemudahan navigasi.
+* Memiliki kesan formal karena digunakan dalam konteks kehumasan universitas.
+
+Identitas visual
+
+Nama: CrisisWatch
+
+Tagline: “Pantau Isu, Cegah Krisis Sebelum Meluas.”
+
+Gunakan kombinasi warna:
+
+* Biru tua/navy sebagai warna utama.
+* Biru sebagai warna elemen interaktif.
+* Putih sebagai latar utama.
+* Abu-abu muda sebagai warna pendukung.
+* Merah untuk menandakan krisis atau peringatan.
+* Kuning/oranye untuk isu yang membutuhkan perhatian.
+* Hijau untuk status aman, terverifikasi, dan krisis teratasi.
+
+Gunakan tipografi modern yang mudah dibaca, misalnya Inter, Poppins, atau font sans-serif sejenis.
+
+Website harus responsif dan dapat dibuka dengan baik melalui:
+
+* Laptop dan komputer.
+* Tablet.
+* Smartphone.
+
+Pada tampilan desktop, gunakan sidebar di sebelah kiri dan area dashboard utama di sebelah kanan. Pada tampilan smartphone, ubah sidebar menjadi navigasi yang praktis dan mudah digunakan.
+
+3. STRUKTUR HALAMAN DAN NAVIGASI WEBSITE
+
+Buat sidebar navigasi yang berisi:
+
+1. Dashboard
+2. Monitoring Isu
+3. Analisis Sentimen
+4. Validasi Isu
+5. Klasifikasi Krisis
+6. Pusat Respons Krisis
+7. Distribusi Respons
+8. Evaluasi dan Pemulihan Reputasi
+9. Riwayat Penanganan
+10. Laporan
+11. Pengaturan
+
+Setiap menu harus mengarah ke halaman yang sesuai. Jangan membuat menu yang tidak memiliki isi atau fungsi.
+
+Tambahkan bagian profil pengguna pada sidebar atau header, termasuk nama pengguna dan peran dalam sistem.
+
+4. HALAMAN DASHBOARD UTAMA
+
+Dashboard merupakan halaman pertama yang muncul setelah pengguna berhasil masuk.
+
+Tampilkan ringkasan kondisi monitoring secara keseluruhan.
+
+A. Ringkasan data monitoring
+
+Buat empat kartu informasi utama:
+
+1. Total Mention Hari Ini.
+2. Persentase Sentimen Negatif.
+3. Jumlah Isu Aktif.
+4. Jumlah Isu Berpotensi Krisis.
+
+Gunakan contoh data awal berikut untuk keperluan demonstrasi:
+
+* Mention hari ini: 1.248.
+* Sentimen negatif: 68%.
+* Isu aktif: 3.
+* Isu berpotensi krisis: 1.
+
+Angka tersebut merupakan data simulasi untuk demonstrasi, bukan data aktual UNJ.
+
+Kartu harus menampilkan angka secara jelas dan dapat diperbarui ketika pengguna menambahkan data baru atau melakukan simulasi monitoring.
+
+B. Grafik tren sentimen
+
+Buat grafik interaktif untuk memperlihatkan perkembangan sentimen berdasarkan:
+
+* Email.
+* Media sosial.
+* Acara atau kegiatan.
+
+Grafik dapat menampilkan perkembangan sentimen positif, netral, dan negatif dalam rentang waktu tertentu.
+
+Sediakan filter:
+
+* Hari ini.
+* 7 hari terakhir.
+* 30 hari terakhir.
+* Pilih rentang tanggal.
+
+Ketika filter diubah, grafik harus menyesuaikan data yang ditampilkan.
+
+C. Daftar isu yang sedang dipantau
+
+Tampilkan daftar isu yang sedang berkembang.
+
+Gunakan tiga contoh isu berikut:
+
+1. Keluhan keterlambatan layanan.
+    * 842 mention.
+    * 72% sentimen negatif.
+    * Sumber: @unj_Official.
+2. Isu kenaikan biaya UKT.
+    * 271 mention.
+    * 56% sentimen negatif.
+    * Sumber: @unj.update.
+3. Fasilitas kurang memadai.
+    * 135 mention.
+    * 46% sentimen negatif.
+    * Sumber: @campuslifeUNJ.
+
+Setiap isu harus memiliki:
+
+* Nama isu.
+* Jumlah mention.
+* Persentase sentimen negatif.
+* Sumber informasi.
+* Waktu terakhir diperbarui.
+* Status isu.
+* Tombol “Lihat Detail”.
+* Tombol “Analisis Isu”.
+
+Ketika tombol “Lihat Detail” ditekan, tampilkan informasi isu secara lebih lengkap.
+
+Ketika tombol “Analisis Isu” ditekan, pengguna diarahkan ke halaman analisis dan validasi isu yang bersangkutan.
+
+5. HALAMAN MONITORING DAN DETEKSI ISU
+
+Buat halaman khusus bernama Monitoring Isu dengan identitas CrisisWatch.
+
+Tujuan halaman ini adalah melakukan pemantauan terhadap isu, percakapan, dan respons publik yang berkaitan dengan UNJ.
+
+A. Fitur pencarian isu
+
+Sediakan kolom pencarian yang memungkinkan pengguna memasukkan:
+
+* Kata kunci.
+* Nama akun media sosial.
+* Topik pembicaraan.
+* Isu tertentu.
+* Nama kegiatan atau layanan.
+
+Contoh kata kunci:
+
+* UNJ.
+* Keterlambatan layanan.
+* UKT.
+* Fasilitas kampus.
+* Pelayanan mahasiswa.
+
+Pengguna dapat menambahkan kata kunci baru dan menghapus kata kunci yang sudah tidak digunakan.
+
+B. Daftar sumber monitoring
+
+Buat kategori sumber informasi:
+
+1. Instagram.
+2. Twitter/X.
+3. TikTok.
+4. Website.
+5. Email.
+6. Acara atau kegiatan.
+
+Tampilkan daftar percakapan atau laporan yang ditemukan berdasarkan kategori sumber tersebut.
+
+Setiap informasi yang ditampilkan harus memiliki:
+
+* Nama akun atau sumber.
+* Isi percakapan atau laporan.
+* Waktu ditemukan.
+* Kata kunci terkait.
+* Jumlah interaksi jika tersedia.
+* Kategori sentimen.
+* Status verifikasi.
+
+C. Deteksi dini
+
+Buat sistem yang dapat memberikan peringatan ketika suatu isu menunjukkan peningkatan perhatian publik.
+
+Indikator deteksi dini meliputi:
+
+* Peningkatan jumlah mention.
+* Peningkatan sentimen negatif.
+* Banyaknya keluhan dengan topik yang sama.
+* Penyebaran informasi dari berbagai akun.
+* Meningkatnya perhatian publik terhadap suatu isu.
+
+Berikan notifikasi visual berdasarkan tingkat perhatian:
+
+* Hijau: Kondisi relatif aman.
+* Kuning: Isu mulai meningkat.
+* Oranye: Isu membutuhkan perhatian serius.
+* Merah: Indikasi krisis tinggi.
+
+Jika terdapat indikasi peningkatan risiko, tampilkan notifikasi pada dashboard.
+
+D. Analisis sentimen
+
+Sediakan fitur untuk mengategorikan percakapan menjadi:
+
+* Positif.
+* Netral.
+* Negatif.
+
+Tampilkan hasil analisis dalam bentuk grafik dan persentase.
+
+Apabila sistem menggunakan data simulasi, berikan label “Data Simulasi”.
+
+Apabila belum terhubung dengan API media sosial, jangan berpura-pura bahwa sistem mengambil data secara langsung dari Instagram, TikTok, atau Twitter. Sediakan fitur input manual dan data demonstrasi terlebih dahulu.
+
+6. HALAMAN VALIDASI DAN KLARIFIKASI ISU
+
+Halaman ini merupakan tahap penting sebelum organisasi memutuskan apakah suatu isu termasuk kategori krisis.
+
+Buat tampilan yang memuat informasi isu secara terperinci.
+
+A. Detail isu
+
+Contoh kasus:
+
+Judul isu: Keluhan Keterlambatan Layanan.
+
+Deskripsi: Terdapat sejumlah keluhan mahasiswa mengenai keterlambatan pelayanan administrasi kampus yang mulai diperbincangkan di media sosial.
+
+Tampilkan:
+
+* Nama isu.
+* Deskripsi isu.
+* Sumber informasi.
+* Jumlah mention.
+* Persentase sentimen negatif.
+* Bukti atau referensi.
+* Waktu pertama kali ditemukan.
+
+B. Bukti dan referensi
+
+Sediakan tempat untuk menampilkan bukti dari sumber informasi.
+
+Contoh:
+
+* @mahasiswaUNJ: “Layanan kampus masih sering telat..”
+* @campuslifeUNJ: “Protes mahasiswa soal layanan..”
+
+Pengguna dapat menambahkan bukti baru melalui:
+
+* Tautan postingan.
+* Teks percakapan.
+* Screenshot.
+* Dokumen pendukung.
+
+Setiap bukti dapat ditambahkan, dilihat, dan dihapus oleh pengguna yang memiliki akses.
+
+Jangan menampilkan bukti yang dibuat seolah-olah berasal dari akun nyata apabila bukti tersebut hanya merupakan data demonstrasi.
+
+C. Checklist verifikasi
+
+Buat checklist interaktif yang berisi:
+
+1. Sumber informasi terkonfirmasi.
+2. Dampak isu meluas.
+3. Sentimen negatif meningkat.
+
+Setiap poin dapat dicentang secara manual.
+
+Sistem harus menghitung jumlah indikator yang telah diverifikasi.
+
+Jika belum seluruh indikator diperiksa, tampilkan peringatan bahwa validasi belum lengkap.
+
+Pengguna juga dapat menambahkan catatan hasil verifikasi.
+
+7. HALAMAN KLASIFIKASI TINGKAT KRISIS
+
+Setelah proses validasi, sistem harus menyediakan pertanyaan utama:
+
+“Apakah isu masuk kategori krisis tinggi?”
+
+Sediakan dua pilihan tindakan:
+
+A. Jika YA (Krisis Tinggi)
+
+Apabila isu dikategorikan sebagai krisis tinggi:
+
+* Tampilkan peringatan berwarna merah.
+* Ubah status isu menjadi “Krisis Tinggi”.
+* Aktifkan status Crisis Team.
+* Tampilkan instruksi untuk menghentikan sementara jadwal konten reguler.
+* Arahkan pengguna menuju halaman formulasi pesan resmi.
+* Simpan keputusan dan waktu klasifikasi.
+
+Tampilkan informasi:
+
+“Isu dikategorikan sebagai krisis tinggi. Aktifkan Crisis Team dan lakukan penghentian sementara jadwal konten reguler untuk memprioritaskan penanganan krisis.”
+
+B. Jika TIDAK (Bukan Krisis Tinggi)
+
+Apabila isu tidak masuk kategori krisis tinggi:
+
+* Ubah status menjadi “Penanganan Terbatas”.
+* Arahkan penanganan melalui Customer Service.
+* Sediakan fitur klarifikasi terbatas.
+* Tetap lakukan monitoring terhadap perkembangan isu.
+* Arahkan pengguna menuju formulasi pesan resmi.
+
+Tampilkan informasi:
+
+“Isu belum masuk kategori krisis tinggi. Penanganan dilakukan melalui Customer Service atau klarifikasi terbatas dengan tetap memantau perkembangan isu.”
+
+PENTING: Jangan menentukan klasifikasi hanya berdasarkan persentase sentimen negatif. Hasil klasifikasi harus mempertimbangkan proses validasi, sumber informasi, dampak isu, dan peningkatan sentimen negatif. Keputusan akhir harus dapat dikonfirmasi oleh pengguna yang berwenang.
+
+8. HALAMAN PUSAT RESPONS KRISIS
+
+Buat halaman khusus untuk menyusun pesan resmi atau klarifikasi.
+
+Judul halaman: Pusat Respons Krisis.
+
+Fitur utama adalah editor pesan resmi dengan format Hold Statement/Klarifikasi.
+
+A. Editor pesan resmi
+
+Sediakan kotak teks besar yang dapat digunakan untuk menulis pernyataan resmi.
+
+Tampilkan contoh pesan berikut:
+
+“Universitas Negeri Jakarta memahami keluhan yang disampaikan terkait keterlambatan layanan. Saat ini, pihak kampus sedang melakukan penanganan untuk memastikan layanan kembali berjalan optimal secepatnya. Terima kasih atas pengertiannya.”
+
+Sediakan penghitung karakter secara otomatis.
+
+Batas karakter awal: 280 karakter.
+
+Contoh tampilan: 155/280.
+
+Ketentuan:
+
+* Jumlah karakter berubah secara otomatis ketika pengguna mengetik.
+* Pesan tidak boleh melebihi batas yang ditentukan.
+* Pengguna dapat mengedit pesan.
+* Pengguna dapat menyimpan draf.
+* Pengguna dapat menghapus draf.
+* Pengguna dapat melihat pratinjau pesan.
+* Pengguna dapat menyalin pesan.
+
+B. Rekomendasi penyusunan pesan
+
+Sediakan panduan penyusunan pesan resmi dengan memperhatikan:
+
+1. Menggunakan bahasa yang profesional.
+2. Menunjukkan empati terhadap pihak yang terdampak.
+3. Menyampaikan informasi secara jelas.
+4. Tidak menyalahkan pihak tertentu tanpa bukti.
+5. Tidak memberikan informasi yang belum terkonfirmasi.
+6. Menjelaskan langkah penanganan yang sedang dilakukan.
+7. Menggunakan nada komunikasi yang tenang dan bertanggung jawab.
+
+C. Persetujuan pesan
+
+Sebelum pesan dipublikasikan, sediakan tahapan persetujuan.
+
+Status pesan:
+
+* Draf.
+* Menunggu persetujuan.
+* Disetujui.
+* Ditolak.
+* Dipublikasikan.
+
+Pesan tidak boleh dianggap resmi sebelum mendapatkan persetujuan dari pengguna yang memiliki kewenangan.
+
+9. HALAMAN DISTRIBUSI RESPONS
+
+Setelah pesan resmi selesai dibuat dan disetujui, pengguna dapat memilih saluran distribusi.
+
+Sediakan pilihan platform:
+
+1. Instagram.
+2. Twitter/X.
+3. TikTok.
+4. Website resmi.
+
+Buat setiap platform dalam bentuk kartu yang memiliki:
+
+* Logo atau ikon platform.
+* Nama platform.
+* Checkbox pemilihan.
+* Status distribusi.
+
+Pengguna dapat memilih satu atau beberapa platform sekaligus.
+
+Sediakan tombol:
+
+“Publikasikan Respons Cepat”
+
+Ketika tombol ditekan:
+
+* Periksa apakah pesan telah disetujui.
+* Periksa apakah pengguna telah memilih platform.
+* Tampilkan konfirmasi sebelum publikasi.
+* Simpan catatan distribusi.
+* Perbarui status respons.
+
+Jika belum tersedia integrasi API, gunakan simulasi publikasi dan tampilkan status “Simulasi Distribusi”, bukan mengklaim bahwa pesan benar-benar sudah diposting.
+
+Jika integrasi tersedia, gunakan API resmi masing-masing platform dan tangani kegagalan publikasi dengan pesan yang jelas.
+
+10. HALAMAN EVALUASI SENTIMEN DAN PEMULIHAN REPUTASI
+
+Setelah respons dipublikasikan, sistem harus melakukan evaluasi terhadap perubahan sentimen publik.
+
+Tampilkan grafik perbandingan sentimen sebelum dan sesudah respons.
+
+Indikator evaluasi:
+
+1. Perubahan jumlah mention.
+2. Perubahan persentase sentimen negatif.
+3. Peningkatan sentimen positif.
+4. Perkembangan isu.
+5. Respons atau tanggapan masyarakat.
+6. Efektivitas pesan resmi.
+
+Sediakan filter waktu:
+
+* Sebelum respons.
+* Setelah respons.
+* 24 jam.
+* 7 hari.
+* 30 hari.
+
+Buat ringkasan evaluasi yang dapat diisi oleh pengguna.
+
+Contoh:
+“Setelah publikasi klarifikasi, jumlah keluhan mulai mengalami penurunan dan sentimen negatif menunjukkan perubahan. Monitoring tetap dilakukan untuk memastikan kondisi stabil.”
+
+Status pemulihan
+
+Sediakan tiga status:
+
+* Dalam Pemantauan.
+* Proses Pemulihan.
+* Krisis Teratasi.
+
+Pengguna yang berwenang dapat mengubah status setelah melakukan evaluasi.
+
+Jika status berubah menjadi “Krisis Teratasi”, tampilkan indikator hijau dan keterangan:
+
+“Krisis teratasi. Proses penanganan telah dievaluasi dan reputasi organisasi memasuki tahap pemulihan.”
+
+Jangan otomatis menyatakan krisis selesai hanya karena pesan telah dipublikasikan. Status penyelesaian harus didasarkan pada hasil evaluasi.
+
+11. HALAMAN RIWAYAT PENANGANAN KRISIS
+
+Buat halaman yang menyimpan seluruh riwayat isu yang pernah ditangani.
+
+Informasi yang disimpan:
+
+* Nama isu.
+* Tanggal ditemukan.
+* Sumber isu.
+* Hasil validasi.
+* Tingkat krisis.
+* Tindakan yang dilakukan.
+* Pesan resmi yang digunakan.
+* Platform distribusi.
+* Hasil evaluasi.
+* Status akhir.
+
+Sediakan fitur:
+
+* Pencarian riwayat.
+* Filter berdasarkan tanggal.
+* Filter berdasarkan tingkat krisis.
+* Filter berdasarkan status.
+* Lihat detail penanganan.
+
+Setiap perubahan status dan keputusan penting harus tercatat dalam riwayat aktivitas agar proses penanganan dapat ditelusuri.
+
+12. HALAMAN LAPORAN
+
+Buat halaman laporan yang menampilkan hasil monitoring dan penanganan krisis dalam format yang rapi.
+
+Laporan meliputi:
+
+1. Ringkasan monitoring.
+2. Jumlah isu yang ditemukan.
+3. Hasil analisis sentimen.
+4. Isu yang telah divalidasi.
+5. Klasifikasi tingkat krisis.
+6. Tindakan penanganan.
+7. Distribusi pesan resmi.
+8. Hasil evaluasi sentimen.
+9. Status pemulihan reputasi.
+
+Sediakan fitur:
+
+* Pilih periode laporan.
+* Buat laporan.
+* Unduh laporan PDF.
+* Ekspor data CSV.
+
+Laporan harus menggunakan data yang benar-benar tersimpan dalam sistem. Jangan membuat angka laporan secara acak.
+
+13. FITUR PENGATURAN DAN PENGELOLAAN PENGGUNA
+
+Buat sistem autentikasi sederhana dengan halaman login.
+
+Sediakan:
+
+* Email atau username.
+* Password.
+* Tombol login.
+* Tombol logout.
+
+Buat dua jenis peran pengguna:
+
+Administrator
+
+Memiliki akses untuk:
+
+* Mengelola pengguna.
+* Mengatur kata kunci monitoring.
+* Mengelola data.
+* Melihat seluruh laporan.
+* Mengatur sistem.
+
+Tim Humas/Crisis Team
+
+Memiliki akses untuk:
+
+* Melakukan monitoring.
+* Memvalidasi isu.
+* Mengklasifikasikan krisis.
+* Menyusun pesan resmi.
+* Mengajukan persetujuan.
+* Melakukan evaluasi.
+
+Pastikan halaman yang memerlukan akses tertentu tidak dapat dibuka oleh pengguna yang tidak memiliki izin.
+
+14. ALGORITMA DAN ALUR KERJA UTAMA WEBSITE
+
+Ini merupakan bagian paling penting dari seluruh sistem.
+
+Implementasikan alur kerja sesuai algoritma pengelolaan krisis media sosial yang terdapat dalam referensi.
+
+Alur harus berjalan sebagai berikut:
+
+MULAI
+
+↓
+
+1. Deteksi Dini dan Monitoring Isu/Sentimen
+
+Sistem melakukan pemantauan terhadap isu, kata kunci, dan percakapan publik.
+
+↓
+
+2. Validasi dan Klasifikasi Skala Krisis
+
+Pengguna memeriksa sumber informasi, bukti, dampak, dan peningkatan sentimen negatif.
+
+↓
+
+3. Pengambilan Keputusan
+
+Sistem menampilkan pertanyaan:
+
+“Apakah Masuk Kategori Krisis Tinggi?”
+
+Jika YA:
+
+* Aktifkan Crisis Team.
+* Pause jadwal konten reguler.
+
+Jika TIDAK:
+
+* Tangani melalui Customer Service.
+* Lakukan klarifikasi terbatas.
+
+Kedua jalur harus bertemu kembali pada tahap berikutnya.
+
+↓
+
+4. Formulasi Pesan Resmi
+
+Susun Hold Statement atau klarifikasi berdasarkan isu yang telah divalidasi.
+
+↓
+
+5. Publikasi dan Distribusi Respons Cepat
+
+Distribusikan pesan melalui platform yang dipilih dan telah disetujui.
+
+↓
+
+6. Evaluasi Sentimen dan Pemulihan Reputasi
+
+Pantau perubahan sentimen, perkembangan isu, serta efektivitas respons.
+
+↓
+
+7. SELESAI (KRISIS TERATASI)
+
+Status krisis dapat dinyatakan selesai setelah dilakukan evaluasi dan mendapatkan konfirmasi pengguna yang berwenang.
+
+Pastikan seluruh tahapan saling terhubung. Pengguna tidak perlu mengulang pengisian data ketika berpindah dari satu tahapan ke tahapan berikutnya.
+
+Simpan setiap perkembangan agar pengguna dapat melanjutkan proses penanganan kapan saja.
+
+15. KETENTUAN TEKNIS DAN FUNGSIONAL
+
+Buat website menggunakan teknologi web yang stabil, modern, dan mudah dikembangkan.
+
+Rekomendasi teknologi:
+
+* Frontend: React atau Next.js.
+* Styling: Tailwind CSS.
+* Database: Supabase atau database sejenis.
+* Autentikasi: Supabase Auth atau sistem autentikasi yang sesuai.
+* Grafik: Recharts atau library visualisasi sejenis.
+
+Jika platform yang digunakan sudah menyediakan teknologi bawaan, gunakan teknologi tersebut selama semua fungsi yang diminta dapat berjalan dengan baik.
+
+Ketentuan penyimpanan data
+
+Data yang dimasukkan pengguna harus dapat disimpan dan dipanggil kembali.
+
+Gunakan database untuk menyimpan:
+
+* Data isu.
+* Data monitoring.
+* Data bukti.
+* Hasil validasi.
+* Klasifikasi krisis.
+* Draf pesan.
+* Persetujuan pesan.
+* Riwayat distribusi.
+* Hasil evaluasi.
+* Riwayat aktivitas pengguna.
+
+Hindari penggunaan data statis yang tidak dapat berubah ketika pengguna melakukan interaksi.
+
+Jika belum menggunakan database, buat penyimpanan lokal sementara untuk prototipe dan jelaskan keterbatasannya.
+
+Ketentuan keamanan
+
+* Validasi setiap input pengguna.
+* Jangan menyimpan password dalam bentuk teks biasa.
+* Lindungi informasi akun.
+* Terapkan pembatasan akses berdasarkan peran.
+* Jangan menampilkan data sensitif kepada pengguna yang tidak berwenang.
+* Berikan konfirmasi sebelum menghapus data.
+* Sediakan penanganan error yang jelas.
+
+Ketentuan interaksi
+
+Setiap tombol harus berfungsi sesuai namanya.
+
+Contoh:
+
+* Tombol Tambah Isu harus membuka formulir penambahan isu.
+* Tombol Simpan harus menyimpan data.
+* Tombol Edit harus memungkinkan perubahan data.
+* Tombol Hapus harus meminta konfirmasi.
+* Tombol Analisis Isu harus membuka halaman analisis.
+* Tombol Validasi harus menyimpan hasil verifikasi.
+* Tombol Lanjutkan harus membawa pengguna ke tahap berikutnya.
+* Tombol Publikasikan harus menjalankan proses distribusi atau simulasi distribusi.
+* Tombol Evaluasi harus membuka halaman evaluasi.
+* Tombol Unduh Laporan harus menghasilkan file laporan.
+
+Jangan membuat tombol yang hanya bisa diklik tetapi tidak menghasilkan tindakan apa pun.
+
+16. DATA DEMONSTRASI DAN SIMULASI
+
+Untuk memastikan website dapat langsung dicoba meskipun belum terhubung dengan API eksternal, sediakan data demonstrasi.
+
+Gunakan contoh kasus:
+
+Kasus 1: Keluhan Keterlambatan Layanan
+
+* 842 mention.
+* 72% sentimen negatif.
+* Sumber: @unj_Official.
+
+Kasus 2: Isu Kenaikan Biaya UKT
+
+* 271 mention.
+* 56% sentimen negatif.
+* Sumber: @unj.update.
+
+Kasus 3: Fasilitas Kurang Memadai
+
+* 135 mention.
+* 46% sentimen negatif.
+* Sumber: @campuslifeUNJ.
+
+Data ini digunakan sebagai data awal untuk menguji fungsi monitoring, validasi, klasifikasi, dan respons krisis.
+
+Sediakan juga fitur untuk menambahkan isu baru secara manual sehingga pengguna dapat mencoba seluruh alur dari awal.
+
+Berikan penanda yang jelas bahwa data tersebut merupakan simulasi.
+
+17. PENGUJIAN DAN EVALUASI WEBSITE
+
+Sebelum website dinyatakan selesai, lakukan pengujian menyeluruh.
+
+Uji skenario berikut:
+
+Skenario A: Krisis Tinggi
+
+1. Pengguna menambahkan isu.
+2. Isu masuk ke halaman monitoring.
+3. Pengguna memeriksa bukti.
+4. Pengguna mencentang checklist validasi.
+5. Pengguna memilih kategori krisis tinggi.
+6. Sistem mengaktifkan Crisis Team.
+7. Sistem menampilkan status pause jadwal konten.
+8. Pengguna menyusun Hold Statement.
+9. Pesan diajukan dan disetujui.
+10. Pengguna memilih platform distribusi.
+11. Respons dipublikasikan atau disimulasikan.
+12. Pengguna melakukan evaluasi.
+13. Status krisis diperbarui.
+
+Skenario B: Bukan Krisis Tinggi
+
+1. Pengguna menambahkan isu.
+2. Pengguna melakukan monitoring.
+3. Pengguna memvalidasi informasi.
+4. Pengguna memilih bukan krisis tinggi.
+5. Sistem mengarahkan penanganan melalui Customer Service atau klarifikasi terbatas.
+6. Pengguna menyusun pesan resmi.
+7. Pesan didistribusikan.
+8. Pengguna melakukan evaluasi.
+9. Status penanganan diperbarui.
+
+Pastikan kedua skenario dapat dijalankan tanpa error.
+
+Lakukan juga pengujian terhadap:
+
+* Navigasi setiap halaman.
+* Fungsi setiap tombol.
+* Penyimpanan dan pemanggilan data.
+* Validasi formulir.
+* Grafik dan filter.
+* Penghitung karakter.
+* Persetujuan pesan.
+* Distribusi respons.
+* Ekspor laporan.
+* Tampilan desktop dan smartphone.
+
+Jika ditemukan kesalahan, perbaiki sebelum menyatakan website selesai.
+
+18. HASIL AKHIR YANG DIHARAPKAN
+
+Hasil akhir harus berupa website CrisisWatch yang memiliki:
+
+1. Dashboard monitoring yang informatif.
+2. Sistem deteksi dini isu.
+3. Grafik analisis sentimen.
+4. Halaman validasi dan klarifikasi.
+5. Sistem klasifikasi tingkat krisis.
+6. Alur pengaktifan Crisis Team.
+7. Fitur formulasi Hold Statement.
+8. Sistem persetujuan pesan resmi.
+9. Fitur distribusi respons.
+10. Halaman evaluasi dan pemulihan reputasi.
+11. Riwayat penanganan krisis.
+12. Laporan yang dapat diunduh.
+13. Sistem login dan pengaturan pengguna.
+
+PRIORITAS UTAMA:
+
+Utamakan kesesuaian fungsi website dengan algoritma pengelolaan krisis media sosial. Jangan mengubah urutan tahapan utama, jangan menghilangkan percabangan antara krisis tinggi dan bukan krisis tinggi, serta pastikan kedua jalur kembali menuju formulasi pesan resmi.
+
+Website harus terasa seperti sistem monitoring dan manajemen krisis yang benar-benar dapat digunakan oleh tim humas, bukan sekadar desain dashboard untuk presentasi.
+
+Buat seluruh halaman secara konsisten, pastikan setiap fitur saling terhubung, dan lakukan pengujian sebelum menyelesaikan proyek.
+
+Mulailah dengan membangun struktur website secara menyeluruh, kemudian implementasikan setiap fitur hingga dapat digunakan. Jangan berhenti pada pembuatan halaman utama saja.
